@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time-table web page</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600;1,700&family=Sansita+Swashed:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="container">
+  <div class="clock">
+    <div class="sec-hand">
+      <div class="sec" id="sec">
+    </div>
+  </div>
+  <div class="min-hand">
+      <div class="min" id="min">
+  </div>
+  </div>
+  <div class="hr-hand">
+      <div class="hr" id="hr">
+  </div>
+</div>
+  </div>
+</div>
+  <script>
+    const deg = 6;
+    const hr = document.querySelector('#hr');
+    const min = document.querySelector('#min');
+    const sec = document.querySelector('#sec');
+
+    setInterval(() => {
+        let day = new Date();
+        let hh = day.getHours() * 30;
+        let mm = day.getMinutes() * deg;
+        let ss = day.getSeconds() * deg;
+        
+        hr.style.transform = `rotateZ(${(hh)+(mm/12)}deg)`;
+        min.style.transform = `rotateZ(${mm}deg)`;
+        sec.style.transform = `rotateZ(${ss}deg)`;
+    })
+  </script>
+</body>
+</html>
