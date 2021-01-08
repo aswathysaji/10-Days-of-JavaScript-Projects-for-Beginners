@@ -9,4 +9,4 @@ Project-based learning not only provides opportunities for students to collabora
 **1. Analogue Clock Using JS**
 
 
-Follow my instagram account https://instagram.com/creative__dev?igshid=128lcki1q4xzc for more 🔥
+Follow my instagram account https://instagram.com/creative__dev for more 🔥
