@@ -1,0 +1,88 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins','sans-serif';
+}
+body{
+  height: 100%;
+  background-color: #222831;
+}
+h1{
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 1rem 0 3rem;
+  text-align: center;
+  color: #fde8cd;
+}
+.main-heading{
+  color: #f05454;
+}
+.input-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.input-div .input{
+  padding: 0.5rem 1rem;
+  height: 50px;
+  outline: none;
+  border:none;
+  width: 450px;
+  font-size: 1.15rem;
+  margin: 0.25rem;
+  border-radius: 2rem;
+}
+.add{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  background: #ef4f4f;
+  margin: 0.25px;
+  cursor: pointer;
+  outline: none;
+}
+.add:hover{
+  opacity: 0.7;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+.item{
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid  #ffffff;
+}
+.input-item{
+  background: none;
+  outline: none;
+  border: none;
+  color:#ffffff ;
+  width: 350px;
+  font-size: 1.1rem;
+}
+.edit-Button{
+  font-size: 1.2rem;
+  margin: 0 1rem;
+  background: none;
+  outline: none;
+  color: #ef4f4f;
+  border: none;
+  cursor: pointer;
+}
+.remove-button{
+  font-size: 1.2rem;
+  background: none;
+  outline: none;
+  color: #ffcda3;
+  border: none;
+  cursor: pointer;
+}
