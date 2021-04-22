@@ -1,0 +1,17 @@
+#number-guess,#result,#history,#number-submit,#restart-game{
+    max-width: 400px;
+    margin: 0 auto;
+}
+#history,#result{
+    margin-top: 16px;
+    text-align: center;
+}
+.banner{
+    color: #ffd23f;
+    font-size: 90px;
+    font-family: sans-serif;
+    text-align: center;
+}
+footer{
+    margin-top: 5%;
+}
